@@ -1,16 +1,41 @@
 [
+    
     {
         "nombre":"bujia",
         "id":1,
         "precio":"5.99",
         "modelo":"",
+        "categoria":"bujias",
+        "descripcion":"bujia de auto ford",
+        "numeroDArticulo":"9",
+        "stock":"",
+        "img":""
+        
+    },
+    {
+        "nombre":"bujia2",
+        "id":2,
+        "precio":"5.99",
+        "modelo":"",
+        "categoria":"bujias",
+        "descripcion":"bujia de auto ford",
+        "numeroDArticulo":"9",
+        "stock":"",
+        "img":""
+        
+    },
+    {
+        "nombre":"bujia",
+        "id":2,
+        "precio":"5.99",
+        "modelo":"",
+        "categoria":"cauchos",
         "descripcion":"bujia de auto ford",
         "numeroDArticulo":"9",
         "stock":"",
         "img":""
         
     }
-
 
 
 

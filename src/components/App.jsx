@@ -2,7 +2,7 @@
 import './App.css';
 import {Navbar} from './Navbar/Navbar';
 import { Navbarprodctos } from './NavbarProductos/Navbarprodctos';
-import {ItemListContainer} from './ItemListCotainer/ItemListContainer';
+import { ProductListCategori } from './ProductListCategori/ProductListCategori';
 import { ItemDetailContainer } from '../components/ItemDetailContainer/ItemDetailContainer';
 export function App() {
   return (
@@ -13,7 +13,6 @@ export function App() {
         </div>
         <div className='col-10 '>
           <Navbar />
-          <ItemListContainer/>
           <ItemDetailContainer/>
         </div>
       </div>
