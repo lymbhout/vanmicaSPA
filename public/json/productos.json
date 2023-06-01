@@ -1,10 +1,12 @@
 [
     {
         "nombre":"bujia",
+        "id":1,
         "precio":"5.99",
         "modelo":"",
         "descripcion":"bujia de auto ford",
         "numeroDArticulo":"9",
+        "stock":"",
         "img":""
         
     }

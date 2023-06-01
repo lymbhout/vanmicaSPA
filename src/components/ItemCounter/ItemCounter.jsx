@@ -1,17 +1,18 @@
 import React from 'react';
 import { useState } from 'react';
-const ItemCounter = ({valInicial,Stock}) => {
+export const ItemCounter = ({valInicial,Stock,precio}) => {
     const [contador, setContador] = useState(valInicial)
     const sumar = ()=> contador < Stock && setContador (contador+1)
     const restar = ()=> contador > valInicial && setContador (contador-1)
     return (
         <div>
+            <p>{precio}</p>
             <button className='btn btn-dark ' onClick={()=> sumar()}>+</button>
             {contador}
             <button className='btn btn-dark 'onClick={()=> restar()}>-</button>
-            <button className='btn btn-dark'>agregar al carrito</button>
+            <button className='btn btn-danger'>agregar al carrito</button>
         </div>
     );
 }
 
-export default ItemCounter;
+
