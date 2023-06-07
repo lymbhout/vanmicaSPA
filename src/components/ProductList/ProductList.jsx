@@ -1,12 +1,13 @@
 import React from 'react';
 import { ProductListCategori } from '../ProductListCategori/ProductListCategori';
 export const ProductList = ({producto}) => {
+    console.log(producto);
     return (
             <>
                 <div className="card mb-3" style={{maxWidth: '540px'}}>
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <img src={`./img/${producto.img}`} className="img-fluid rounded-start" alt={producto.nombre} />
+                            <img src={`${producto.img}`} className="img-fluid rounded-start" alt={producto.nombre} />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
@@ -15,7 +16,7 @@ export const ProductList = ({producto}) => {
                                 <p className="card-text"></p>
                             </div>
                         </div>
-                        <ProductListCategori/>
+                        <ProductListCategori className=''/>
                     </div>
                 </div>
             </>

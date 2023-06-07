@@ -2,6 +2,8 @@ import React from 'react';
 import { CartWidget } from '../CartWidget/CartWidget';
 export const Navbar = () => {
     return (
+        <>
+        <div className='bg-danger text-white text-center '> Precio de envio 2.99$</div>
             <nav className="navbar bg-dark p-4 ">
                 <div className="container-fluid ">
                     <form className="d-flex" role="search">
@@ -11,6 +13,7 @@ export const Navbar = () => {
                     <CartWidget cantidadCarrito={10}/> 
                 </div>
             </nav>
+        </>
     );
 }
 
