@@ -15,7 +15,7 @@ export const ProductListCategori = () => {
             setCategoria(vari)
             
         })
-    },[])
+    },[idcategoria])
     return (
         <>
         {categoria}
