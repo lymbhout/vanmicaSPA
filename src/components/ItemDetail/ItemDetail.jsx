@@ -1,8 +1,8 @@
 import React from 'react';
 import {ItemCounter} from '../ItemCounter/ItemCounter.jsx';
+import { Link } from 'react-router-dom';
 export const ItemDetail = ({prod}) => {
 
-    
     const onAdd = (cantidad)=>{ //agregar producto al carrito
         console.log(cantidad);
         console.log(prod);
@@ -19,6 +19,7 @@ export const ItemDetail = ({prod}) => {
                 <p className="card-text">{prod.descipcion}</p>
                 <p className="card-text"><small className="text-body-secondary">{prod.descipcion}</small></p>
                 <ItemCounter valInicial={1} Stock={5} precio={prod.precio} onAdd={onAdd}/>
+                <Link className='nav-link' to={'/Cart'}> <button className='btn'>Finalizar compra</button> </Link>
             </div>
         </div>
     </div>
