@@ -5,6 +5,7 @@ import {Navbar} from './Navbar/Navbar';
 import { Navbarprodctos } from './NavbarProductos/Navbarprodctos';
 import { ItemDetailContainer } from '../components/ItemDetailContainer/ItemDetailContainer';
 import { ItemListContainer } from './ItemListCotainer/ItemListContainer';
+import { Checkout } from './Checkout/Checkout';
 import Home from './Home/Home';
 export function App() {
   return (
@@ -20,6 +21,7 @@ export function App() {
             <Route path='/'element={<Home/>}></Route>
             <Route path='/category/:idcategoria'element={<ItemListContainer/>}></Route>
             <Route path='/item/:id'element={<ItemDetailContainer/>} ></Route>
+            <Route path='/Checkout'element={<Checkout/>}></Route>
           </Routes>
               {/* <ItemListContainer/> */}
         </div>
