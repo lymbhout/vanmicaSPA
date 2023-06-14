@@ -2,3 +2,13 @@
     padding: 0px !important;
     margin: 0px !important;
 }
+.carBodyDark{
+    background-color: rgb(32, 32, 88) ;
+}
+.itemDetailBodyDark{
+    background-color: rgb(32, 32, 88);
+}
+.darkMode {
+    background-color: black;
+    color: antiquewhite;
+}

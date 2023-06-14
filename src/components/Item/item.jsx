@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { useDarkModeContext } from '../../components/Context/DarkModeContext';
 export const Item = ({item}) => {
+
+  const {darkMode} = useDarkModeContext()
+  console.log(darkMode);
     return (
   // plantilla de productos
   <div className="card" style={{width: '18rem'}} data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">

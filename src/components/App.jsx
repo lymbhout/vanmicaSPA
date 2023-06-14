@@ -12,7 +12,6 @@ import { ItemListContainer } from './ItemListCotainer/ItemListContainer';
 import { Checkout } from './Checkout/Checkout';
 import Cart from './Cart/Cart';
 import Home from './Home/Home';
-import { DarkModerProvider } from './Context/DarkModeContext';
 export function App() {
   return (
   <BrowserRouter>
