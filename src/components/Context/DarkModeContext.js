@@ -7,7 +7,7 @@ export const useDarkModeContext = () =>useContext(DarkModeContext) // consulador
 export const DarkModerProvider = (props) => { //provedor
     const [darkMode, setDarkMode] = useState(false) //booleano para definri modo oscuro
 
-    const toogleDarkMode = ()=>{
+    const toggleDarkMode = ()=>{
         setDarkMode(!darkMode)
         if (!darkMode){
             document.body.firstElementChild.classList.add("darkMode")
@@ -16,7 +16,7 @@ export const DarkModerProvider = (props) => { //provedor
         }
     }
     return(
-        <DarkModeContext.Provider value={{darkMode,toogleDarkMode}}>
+        <DarkModeContext.Provider value={{darkMode,toggleDarkMode}}>
             {props.children}
         </DarkModeContext.Provider>
     )

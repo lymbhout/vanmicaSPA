@@ -4,20 +4,18 @@ import { useDarkModeContext } from '../../components/Context/DarkModeContext';
 export const Item = ({item}) => {
 
   const {darkMode} = useDarkModeContext()
-  console.log(darkMode);
     return (
   // plantilla de productos
-  <div className="card" style={{width: '18rem'}} data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  <div className={`card ${darkMode ? 'bg-primary text-white':'bg-light'}`} style={{width: '18rem'}} data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
     <Link to={`/item/${item.id}`}><img src={`./img/${item.img}`} alt={`${item.nombre}`} /></Link>
-    <div className="card-body collapse" id="collapseExample">
+    <div className='card-body collapse ' id="collapseExample">
       <p className="card-text">{item.descripcion}</p>
     </div>
       <h5 className="card-title">{item.nombre} {item.modelo}</h5>
       <p className="card-text">{item.numeroDArticulo}</p>
       <p className="card-text">{item.precio}</p>
-      <Link href="#" className="btn btn-danger"> Compra</Link>
+      <Link href="#" className={`btn ${darkMode ?'btn-outline-danger':'btn-danger'}`}> Compra</Link>
   </div>
-
     );
 }
 

@@ -4,11 +4,12 @@
 }
 .carBodyDark{
     background-color: rgb(32, 32, 88) ;
+    color:  red;
 }
 .itemDetailBodyDark{
     background-color: rgb(32, 32, 88);
 }
 .darkMode {
-    background-color: black;
-    color: antiquewhite;
+    background-color: #212529;
+    color: black;
 }
