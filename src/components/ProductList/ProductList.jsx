@@ -1,5 +1,6 @@
 import React from 'react';
 import { ProductListCategori } from '../ProductListCategori/ProductListCategori';
+
 export const ProductList = ({producto}) => {
     console.log(producto);
     return (
