@@ -11,5 +11,27 @@
 }
 .darkMode {
     background-color: #212529;
-    color: black;
+}
+.center{
+    margin-left: 5px !important;
+    margin-bottom: 25px !important;
+}
+
+.imgPequeña{
+    width: 30px !important;
+}
+.imgMediana{
+    width: 600px !important;
+}
+.centerPosition{
+    position:absolute;
+    top: 15px;
+    left: 18px;
+}
+.relativo{
+    position: relative;
+}
+.height{
+    height: 450px !important;
+    width: auto;
 }
