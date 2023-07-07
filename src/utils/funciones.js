@@ -4,3 +4,4 @@ export const consultarBDD = async (ruta)=> {
     const datos = response.json()
     return datos
 }
+

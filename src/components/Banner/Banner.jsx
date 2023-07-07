@@ -1,19 +1,18 @@
 import React from 'react';
+export const Banner = () => {
 
-const Banner = () => {
     return (
-        <div id="carouselExampleIndicators" className="carousel slide mt-3" data-bs-ride='true' data-bs-interval='3000'>
+    <div id="carouselExampleIndicators" className="carousel slide t-3" data-bs-ride="true"  data-bs-interval='3000'>
         <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={1} aria-label="Slide 2" />
-            {/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={2} aria-label="Slide 3" /> */}
         </div>
-        <div className="carousel-inner" >
-            <div className="carousel-item active ">
-            <img src="./img/banner/BANNER1.PNG" className="d-block w-100 height" alt="..." />
+        <div className="carousel-inner  d-flex" >
+            <div className="carousel-item active  ">
+            <img src="../img/banner/BANNER1.PNG" className="height" alt="..." />
             </div>
             <div className="carousel-item">
-            <img src="./img/banner/BANNER2.PNG" className="d-block w-100 height" alt="..." />
+            <img src="../img/banner/BANNER2.PNG" className="  height" alt="..." />
             </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -28,4 +27,4 @@ const Banner = () => {
     );
 }
 
-export default Banner;
+

@@ -7,7 +7,7 @@ export const Item = ({item}) => {
     return (
   // plantilla de productos
   <div className={`card ${darkMode ? 'bg-primary text-white':'bg-light'}`} style={{width: '18rem'}} data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-    <Link to={`/item/${item.id}`}><img src={`./img/${item.img}`} alt={`${item.nombre}`} /></Link>
+    <Link to={`/item/${item.id}`}><img src={item.img} alt={`${item.nombre}`} /></Link>
     <div className='card-body collapse ' id="collapseExample">
       <p className="card-text">{item.descripcion}</p>
     </div>
