@@ -1,54 +1,426 @@
 [
     
     {
-        "nombre":"bujia",
+        "nombre":"Filtro de aire MK-87402",
         "id":1,
         "precio":"5.99",
-        "modelo":"",
-        "idcategoria":"bujias",
-        "descripcion":"bujia de auto ford",
+        "modelo":"MK-87402",
+        "idcategoria":"Filtro de aire",
+        "descripcion":" altura: 40 mm largo: 243 mm ancho: 138 mm. ",
+        "auto":" TOYOTA TERIOS L4 1.3 LTS 02-07/",
         "numeroDArticulo":"9",
+        "fabricante":"MILLARD",
         "stock":"",
-        "img":""
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtros%20aire%2FD_NQ_NP_603636-MLV44070607763_112020-O%5B1%5D.webp?alt=media&token=86c18da7-584a-4c16-8ca9-ad575872e6af"
         
     },
     {
-        "nombre":"bujia2",
+        "nombre":"Filtro de aire  MK-91485",
         "id":2,
         "precio":"5.99",
-        "modelo":"",
-        "idcategoria":"bujias",
-        "descripcion":"bujia de auto ford",
+        "modelo":"47089,",
+        "idcategoria":"Filtro de aire",
+        "descripcion":" ALTURA: 28 MM LARGO: 225 MM ANCHO: 193 MM",
+        "auto":" CHEVROLET SPARK L4 1.0 LTS / < TICO MATIZ DAMAS",
         "numeroDArticulo":"9",
+        "fabricante":"MILLARD",
         "stock":"",
-        "img":""
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtros%20aire%2Ffiltro-para-aire-chevrolet-spark-2_629021d8-4a67-41ea-bf08-d04c94d78f46_large%5B1%5D.jpg?alt=media&token=d5ca6ff6-1958-45a3-a9d4-26e9d75deb18"
         
     },
     {
-        "nombre":"cauchos",
+        "nombre":"Filtro de aire  S211109111",
         "id":3,
         "precio":"5.99",
-        "modelo":"",
-        "idcategoria":"cauchos",
-        "descripcion":"bujia de auto ford",
+        "modelo":"S211109111",
+        "idcategoria":"Filtro de aire",
+        "descripcion":"  ALTURA: 43 mm ; LARGO: 209 mm; ANCHO: 196 mm",
+        "auto":"  CHERY ARAUCA 02-16/",
         "numeroDArticulo":"9",
+        "fabricante":"MOSS",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtros%20aire%2FD_NQ_NP_620227-MCO31540927392_072019-O%5B1%5D.webp?alt=media&token=0f64c2c6-91b8-4b32-9e75-12956750eceb"
+        
+    },
+    {
+        "nombre":"Filtro de aceite ML3614",
+        "id":4,
+        "precio":"5.99",
+        "modelo":"ML3614",
+        "idcategoria":"Filtro de aceite",
+        "descripcion":"ALTURA: 87 mm ; LARGO: 77 mm ;ROSCA: 3/4 -16 mm ; JUNTA DIAMETRO INTERIOR: 62 mm ;JUNTA DIAMETRO EXTERIOR: 71 mm  ",
+        "auto":"  CHEVROLET WAGON R+ L4 1.2 LTS /  CHEVROLET GRAND VITARA XL7 V6 2.7 LTS 24V 07/01/  CHEVROLET GRAND VITARA XL7 V6 2.7 LTS 24V 01/07/  CHRYSLER NEON L4 2.0 LTS /  FIAT TEMPRA 1.8 LTS /  FIAT TEMPRA L4 1.6 LTS /  FIAT TEMPRA L4 2.0 LTS /  TOYOTA 4 RUNNER V6 3.0 LTS /  TOYOTA 4 RUNNER V6 3.4 LTS /  TOYOTA 4 RUNNER V6 4.0 LTS /  TOYOTA AVALON V6 3.0 LTS /  TOYOTA AVALON V6 3.5 LTS /  TOYOTA COROLLA AVILA L4 1.6 LTS 88-02/ < ARAUCA/X1/GRAND VITARA XL5/CAMRY COROLLA >",
+        "numeroDArticulo":"9",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2Ffiltro-para-aceite-ford-suzuki-y-toyota-3_e85a4c34-8b26-4b1c-b8be-04a0585cf840_large%5B1%5D.jpg?alt=media&token=551171f8-08f9-49f6-a024-2d7504edc15d"
+        
+    },
+    {
+        "nombre":"Filtro de aceite ML10060",
+        "id":5,
+        "precio":"",
+        "modelo":"ML10060",
+        "idcategoria":"Filtro de aceite",
+        "descripcion":"ALTO: 87 mm; DIAMETRO EXTERIOR: 77 mm; ROSCA: M22x1.5.",
+        "auto":"  CHEVROLET AVALANCHE /  CHEVROLET SILVERADO /  CHEVROLET TAHOE /  CHEVROLET EXPRESS CARGO VAN V6 262 4.3 LTS /  DODGE CALIBER /  JEEP COMPASS L4 148 2.4 LTS 16V /",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2FD_NQ_NP_2X_939267-MLV52161139814_102022-F%5B1%5D.webp?alt=media&token=e2173230-01e1-4649-b403-3ef8c78d61ae"
+        
+    },
+    {
+        "nombre":"Filtro de aceite ML3807",
+        "id":6,
+        "precio":"",
+        "modelo":"ML3807",
+        "idcategoria":"Filtro de aceite",
+        "descripcion":"ALTURA: 82 mm DIAMETRO EXTERNO: 84 mm ROSCA: M 20X1.5 ",
+        "auto":"  ACURA VIGOR L5 2.5 LTS /  CHEVROLET LUV DMAX /  CHEVROLET LUV L4 2.3 LTS /  CHEVROLET LUV L4 2.6 LTS /  CHEVROLET LUV V6 3.2 LTS /  DODGE BRISA L4 1.3 LTS /  DODGE STEALTH V6 3.0 LTS /  DODGE STRATUS L4 2.4 LTS /  DODGE STRATUS V6 2.5 LTS /  FORD FESTIVA L4 1.3 LTS /  HONDA ACCORD L4 2.2 LTS /  HONDA ACCORD L4 2.3 LTS /  HONDA CIVIC L4 1.5 LTS /  HONDA CIVIC L4 1.6 LTS /  HONDA CIVIC L4 1.7 LTS /  HONDA CIVIC L4 1.8 LTS /  HONDA INTEGRA L4 1.8 LTS /  HONDA LEGEND V6 3.2 LTS /  HONDA LEGEND V6 3.5 LTS /  HONDA ODISSEY L4 2.2 LTS /  HONDA ODISSEY V6 3.5 LTS /  HONDA PRELUDE L4 2.3 LTS /  HONDA VIGOR L5 2.5 LTS /  HYUNDAI ACCENT L4 1.3 LTS /  HYUNDAI ACCENT L4 1.5 LTS /  HYUNDAI ACCENT L4 1.6 LTS /  HYUNDAI ELANTRA L4 1.6 LTS /  HYUNDAI ELANTRA L4 1.8 LTS /  HYUNDAI ELANTRA L4 2.0 LTS /  HYUNDAI EXCEL L4 1.5 LTS /  HYUNDAI GALLOPER V6 3.0 LTS /  HYUNDAI GETZ L4 1.3 LTS /  HYUNDAI GETZ L4 1.6 LTS /  HYUNDAI SANTA FE V6 2.7 LTS /  HYUNDAI SCOUPE L4 1.5 LTS /  HYUNDAI SONATA L4 2.0 LTS /  HYUNDAI SONATA L4 2.4 LTS /  HYUNDAI SONATA V6 2.5 LTS /  HYUNDAI SONATA V6 2.7 LTS /  HYUNDAI SONATA V6 3.0 LTS /  HYUNDAI TIBURON COUPE L4 2.0 LTS /  HYUNDAI TIBURON COUPE V6 2.7 LTS /  HYUNDAI TUCSON L4 2.0 LTS /  HYUNDAI VERNA L4 1.5 LTS /  ISUZU AMIGO L4 2.6 LTS /  ISUZU AMIGO V6 3.2 LTS /  ISUZU RODEO V6 3.2 LTS /  ISUZU STYLUS L4 1.6 LTS /  ISUZU TROOPER V6 3.2 LTS /  ISUZU TROOPER V6 3.5 LTS /  KIA CERATO L4 2.0 LTS /  KIA SORENTO V6 3.5 LTS /  MAZDA 323 L4 1.3 LTS /  MAZDA 323 L4 1.5 LTS /  MAZDA 323 L4 1.6 LTS /  MITSUBISHI 3000GT V6 3.0 LTS /  MITSUBISHI DIAMANTE V6 3.0 LTS /  MITSUBISHI MONTERO V6 3.0 LTS /  MITSUBISHI MONTERO V6 3.5 LTS /  MITSUBISHI SIGMA V6 3.0 LTS /  SUBARU IMPREZA H4 1.6 LTS /  SUBARU IMPREZA H4 2.0 LTS /  SUBARU LEGACY H4 1.9 LTS /  SUBARU LEGACY L4 2.2 LTS /  SUBARU LEGACY L4 2.5 LTS /  SUBARU OUTBACK V6 3.0 LTS /  SUBARU SVX V6 3.3 LTS /  SUBARU TRIBECA B9 H4 2.5 LTS / < THERMO KING PAICA CHEVROLET LUV D MAX >",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2FD_NQ_NP_2X_742644-MLV53408681688_012023-F%5B1%5D.webp?alt=media&token=6caf7ef6-ccb7-43a5-b1b3-4e33b772fd6b"
+        
+    },
+    {
+        "nombre":"Filtro de aceite ML2",
+        "id":7,
+        "precio":"",
+        "modelo":"ML2",
+        "idcategoria":"Filtro de aceite ",
+        "descripcion":"Alto: 107 mm;Diámetro exterior: 95 mm;Rosca: M22x1.5.",
+        "auto":"  FORD CROWN VICTORIA V8 281 4.6 LTS /  FORD ECONOLINE V8 5.4 LTS /  FORD ESCAPE V6 3.0 LTS /  FORD EXPLORER V6 244 4.0 LTS /  FORD F-350 TRITON V8 330 5.4 LTS /  FORD FUSION V6 3.0 LTS /  FORD GRAND MARQUIS V8 281 4.6 LTS /  FORD MUSTANG V8 281 4.6 LTS /  FORD TAURUS V6 3.0 LTS /  MAZDA B-4000 V6 4.0 LTS /",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2FD_NQ_NP_2X_871039-MLV44073941741_112020-F%5B1%5D.webp?alt=media&token=3bffa28e-7ebb-40ba-8de7-21e14e4ad0ba"
+        
+    },
+    {
+        "nombre":"Filtro de aceite 481H1012010",
+        "id":8,
+        "precio":"",
+        "modelo":"481H1012010",
+        "idcategoria":"Filtro de aceite ",
+        "descripcion":"",
+        "auto":"  ORINOCO ",
+        "numeroDArticulo":"",
+        "fabricante":"CHERY",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2FD_NQ_NP_2X_853268-MLV51310966899_082022-F%5B1%5D.webp?alt=media&token=26811040-274b-43a5-a5f5-d379bf06dafb"
+        
+    },
+    {
+        "nombre":"Filtro de aceite ML4558",
+        "id":9,
+        "precio":"",
+        "modelo":"ML4558",
+        "idcategoria":"Filtro de aceite ",
+        "descripcion":"ALTURA :101 mm; DIAMETRO EXTERIOR :77 mm; ROSCA: M20 X 1.5",
+        "auto":"  FIAT UNO L4 1.0 LTS /  FIAT UNO L4 1.3 LTS /  FIAT UNO L4 1.5 LTS /  FIAT UNO L4 1.6 LTS /  FIAT PALIO ADVENTURE L4 1.8 LTS /  FIAT PALIO FIRE L4 1.3 LTS 16V /  FIAT PALIO HLX L4 1.8 LTS /  FIAT PALIO L4 1.3 LTS /  FIAT PALIO L4 1.4 LTS /  FIAT PALIO L4 1.6 LTS /  FIAT PALIO WEEKEND L4 1.8 LTS /  FIAT SIENA ADVENTURE L4 1.8 LTS /  FIAT SIENA FIRE L4 1.3 LTS 16V /  FIAT SIENA HLX L4 1.8 LTS /  FIAT SIENA L4 1.3 LTS /  FIAT SIENA L4 1.4 LTS /  FIAT SIENA L4 1.6 LTS /  FIAT SIENA WEEKEND L4 1.8 LTS /  FIAT MAREA L4 1.6 LTS /  FIAT MAREA V5 2.0 LTS / < 95 BS >",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2FD_NQ_NP_2X_898170-MLV51338599632_082022-F%5B1%5D.webp?alt=media&token=2795564e-b20c-432a-94d7-6ec38d063bdc"
+        
+    },
+    {
+        "nombre":"Filtro de aceite ML3600",
+        "id":10,
+        "precio":"",
+        "modelo":"ML3600",
+        "idcategoria":"Filtro de aceite ",
+        "descripcion":"ALTURA :120 mm; DIAMETRO EXTERIOR :77 mm; ROSCA: 3/4-16",
+        "auto":" FIESTA 1,6/ DODGE DAKOTA V6 3.7 LTS /  FIAT RITMO L4 1.5 LTS /  FIAT RITMO L4 1.6 LTS /  FIAT RITMO L4 2.0 LTS /  FIAT PREMIO L4 1.3 LTS /  FIAT PREMIO L4 1.5 LTS /  FIAT PREMIO L4 1.6 LTS /  FIAT REGATA 105S L4 1.6 LTS /  FIAT REGATA 85S L4 1.5 LTS /  FIAT REGATA L4 2.0 LTS /  FORD AEROSTAR V6 3.0 LTS /  FORD CONTINENTAL V6 232 3.8 LTS /  FORD ESCAPE L4 2.0 LTS /  FORD ECOSPORT L4 1.6 LTS /  FORD F-150 FORTALEZA V6 256 4.2 LTS /  FORD FOCUS L4 2.0 LTS /  FORD KA L4 1.6 LTS /  FORD PROBE V6 3.0 LTS /  FORD RANGER L4 2.5 LTS /  FORD THUNDERBIRD V6 3.8 LTS /  FORD TRACER L4 1.9 LTS /  FORD WINDSTAR V6 232 3.8 LTS /  FORD F-350 TRITON V8 330 5.4 LTS /  FORD FIESTA POWER L4 1.6 LTS 98-12/  JEEP CHEROKEE LIBERTY V6 3.7 LTS /  MAZDA B-2300 L4 2.3 LTS /  MAZDA B-2500 V6 2.5 LTS / < 1 >",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2FD_NQ_NP_2X_953034-MLV69389215715_052023-F%5B1%5D.webp?alt=media&token=02bae2e3-c994-4041-a82c-7e7fd6325a75"
+        
+    },
+    {
+        "nombre":"Filtro de aceite ML20004",
+        "id":11,
+        "precio":"",
+        "modelo":"ML20004",
+        "idcategoria":"Filtro de aceite ",
+        "descripcion":"- Alto: 100 mm; Diámetro exterior: 77 mm; Rosca: 3/4-16.",
+        "auto":"  TOYOTA HILUX KAVAK V6 4.0 LTS / < MACHITO, AUTANA Y OTROS RUSTICOS 24 VAL >",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2FD_NQ_NP_2X_745923-MLV44074998709_112020-F%5B1%5D.webp?alt=media&token=7858b899-617f-4f14-a2de-47d2a332c111"
+        
+    },
+    {
+        "nombre":"Filtro de aceite ML4967",
+        "id":12,
+        "precio":"",
+        "modelo":"ML4967",
+        "idcategoria":"Filtro de aceite ",
+        "descripcion":"- Alto: 72 mm.Diámetro exterior: 69 mm.Rosca: 3/4-16.",
+        "auto":"  DAEWOO DAMAS L3 0.8 LTS /  TOYOTA / < spark >",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2FD_NQ_NP_2X_661445-MLV44065795298_112020-F%5B1%5D.webp?alt=media&token=f00f77f1-bc4e-4c35-910c-c9652311be8f"
+        
+    },
+    {
+        "nombre":"Filtro de aceite ML3387",
+        "id":13,
+        "precio":"",
+        "modelo":"ML3387",
+        "idcategoria":"Filtro de aceite ",
+        "descripcion":"Diámetro exterior: 79 mm;Rosca: M18 X 1,5;Altura: 87 mm",
+        "auto":"  AVEO OPTRA CORSA  ",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20aceite%2FD_NQ_NP_2X_848431-MLV51231852932_082022-F%5B1%5D.webp?alt=media&token=0e06d219-0c38-47c9-a521-26cebe53e2e9"
+        
+    },
+    {
+        "nombre":"Filtro de aceite 4801012010",
+        "id":14,
+        "precio":"",
+        "modelo":"4801012010",
+        "idcategoria":"Filtro de aceite ",
+        "descripcion":"",
+        "auto":"  ARAUCA ",
+        "numeroDArticulo":"",
+        "fabricante":"KAMOKA",
         "stock":"",
         "img":""
         
     },
     {
-        "nombre":"cauchos",
-        "id":4,
-        "precio":"5.99",
-        "modelo":"",
-        "idcategoria":"cauchos",
-        "descripcion":"bujia de auto ford",
-        "numeroDArticulo":"9",
+        "nombre":"Filtro de gasolina FGI140",
+        "id":15,
+        "precio":"",
+        "modelo":"FGI140",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"ALTO: 175.34 MILIMETROS;DIAMETRO EXTERIOR: 50.00 mm;DIAMETRO DE ENTRADA: 9.5 mm;DIAMETRO DE SALIDA: 9.5 mm",
+        "auto":"FIAT PALIO SIENA ETC",
+        "numeroDArticulo":"",
+        "fabricante":"INTERFIL ",
         "stock":"",
-        "img":""
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_673631-MLV43300196090_082020-O%5B1%5D.jpg?alt=media&token=dbf6c0bd-2ad1-4ff7-953d-ca3caee0cbf8"
         
+    },
+    {
+        "nombre":"Filtro de gasolina MF9305",
+        "id":16,
+        "precio":"",
+        "modelo":"MF9305",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"ALTO: 118mm; DIAMETRO EXTERIOR:71 mm;DIAMETRO DE ENTRADA: M14x1.5 mm;DIAMETRO DE SALIDA: M12x1.25",
+        "auto":"  DODGE BRISA L4 1.3 LTS /  HYUNDAI ACCENT L4 1.3 LTS /  HYUNDAI ACCENT L4 1.5 LTS /  HYUNDAI SCOUPE L4 1.5 LTS / ",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://storage.googleapis.com/vanmica-site.appspot.com/filtro%20de%20gasolina/filtro-para-combustible-hyundai-accent-scoupe-1_5a6a40c6-a49c-40ce-908a-186fda9adb3b_1024x1024%5B1%5D.jpg?GoogleAccessId=service-116549438331@gcp-sa-firebasestorage.iam.gserviceaccount.com&Expires=1689103582&Signature=MCufj%2BINAH%2BlaBd3KtGWyVBghtvBFpic4Qdo7gpSLL5EEAgrNHogzNYhWV5xVE%2B6rRey/3u9%2BjeKLdOHVR%2BvGoF0XAAhX%2B7h98fgYAcgiUxF9a1nDI3aqXiB1d4Xb2M0PeAmUZmAVdWjOs/6fkSTr0iNOV06zJr1RRI4DwP4ff8%2Bxr1wrWEM4tvzbDNwQNpzXNk9KQ2PTW6MMUaGVQCxPcj7xWBNP1zmUTZayHFk%2BcqIq/Xb%2B3HJzE28h8%2BFBnq4zmCfXhJIfldH8uZwOS6Lb2XrYpZzeBnVZQXfDTf/Wy0RRg38AYoqSJ3UONQWX0kqca%2BYtk01O124tEX0b1chhA%3D%3D"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina FG1083",
+        "id":17,
+        "precio":"",
+        "modelo":"FG1083",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"Diámetro de entrada: 5 mm;Diámetro de salida: 5 mm",
+        "auto":"  FORD BRONCO V8 302 5.0 LTS /  FORD EXPLORER V6 244 4.0 LTS /  FORD F-150 L6 300 4.9 LTS /  FORD F-150 V8 302 5.0 LTS /  FORD F-350 L6 300 4.9 LTS /  FORD F-350 V8 351 5.8 LTS /  FORD FIESTA L4 1.3 LTS /  FORD FIESTA L4 1.6 LTS /  FORD KA L4 1.6 LTS /  FORD RANGER V6 4.0 LTS / < TRITON > ",
+        "numeroDArticulo":"",
+        "fabricante":"Motorcraft",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_943417-MLV50423455194_062022-F%5B1%5D.webp?alt=media&token=4f3ea8a2-8a3f-496f-a7de-0efde42e77e4"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina F078",
+        "id":18,
+        "precio":"",
+        "modelo":" F078",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"",
+        "auto":"  FILTRO INTERNO PILA DE GASOLINA SWIFT, MITSUBISHI, GRAND CHEROKEE ",
+        "numeroDArticulo":"",
+        "fabricante":"",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_943417-MLV50423455194_062022-F%5B1%5D.webp?alt=media&token=4f3ea8a2-8a3f-496f-a7de-0efde42e77e4"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina 2330019145",
+        "id":19,
+        "precio":"",
+        "modelo":"2330019145",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"Diámetro de entrada: 1 mm;Diámetro de salida: 1 mm",
+        "auto":"  BABY CAMRY  ",
+        "numeroDArticulo":"",
+        "fabricante":"TOYOTA",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_956595-MLV48853362827_012022-F%5B1%5D.webp?alt=media&token=2a92bd8b-3f1d-4d81-8864-2281d9488f66"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina B14-1117110",
+        "id":20,
+        "precio":"",
+        "modelo":"B14-1117110",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"Diámetro de entrada: 9 mm;Diámetro de salida: 9 mm",
+        "auto":"  ARAUCA / ORINOCO / X1  ",
+        "numeroDArticulo":"",
+        "fabricante":"CHERY",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_921516-MLV44311351933_122020-F%5B1%5D.webp?alt=media&token=eb934eb7-37c0-467e-b1ed-f218a56da354"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina MF44188",
+        "id":21,
+        "precio":"",
+        "modelo":"MF44188",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"",
+        "auto":"  HYUNDAI GETZ L4 1.3 LTS /  HYUNDAI GETZ L4 1.6 LTS /",
+        "numeroDArticulo":"",
+        "fabricante":"Golden Eagle",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2Ffiltro-de-gasolina-hyundai-getz-dodge-brisa-13-y-16%5B1%5D.jpg?alt=media&token=c8a4f582-fd3e-49cf-89dd-a02640e97163"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina MF83143",
+        "id":22,
+        "precio":"",
+        "modelo":"MF83143",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"- Alto: 138 mm.Diámetro exterior: 138 mm.Entrada: 9.3 mm.Salida: 8.5 mm.",
+        "auto":"   HYUNDAI TUCSON L4 2.0 LTS /",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_719822-MLV50100175235_052022-F%5B1%5D.webp?alt=media&token=89485b27-6008-4f96-a4b6-a5893947e111"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina MF9000",
+        "id":23,
+        "precio":"",
+        "modelo":"MF9000",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"Alto: 110 mm.Diámetro exterior: 70 mm.Entrada: M14x1.5.Salida: M12x1.5.",
+        "auto":"  HYUNDAI ELANTRA L4 1.8 LTS /  HYUNDAI TIBURON COUPE L4 2.0 LTS / ",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_961587-MLV53616729350_022023-F%5B1%5D.webp?alt=media&token=70cec80b-e40d-4858-ab20-2c83e6d18df2"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina OK30A13480K",
+        "id":24,
+        "precio":"",
+        "modelo":"OK30A13480K",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":" Peso:0.3 kg; Dimensiones:16 X 12 X 10 cm",
+        "auto":"  < KIA, RIO >",
+        "numeroDArticulo":"",
+        "fabricante":"KIA",
+        "stock":"",
+        "img":"https://storage.googleapis.com/vanmica-site.appspot.com/filtro%20de%20gasolina/21213250%5B1%5D.jpg?GoogleAccessId=service-116549438331@gcp-sa-firebasestorage.iam.gserviceaccount.com&Expires=1689127980&Signature=QmxIrp1Qzbj8F6ZlSp6wm6gu4PLMTIoaKWCkknbpGB6PTpN0OIURAZWZ6Io2ylx5V/FNieQjqSqtxqxxkNjOo%2BldN/jYUvLPs6LaYij/R4mB78adNj%2BAqh36NiV6JwL4BO58pdRw91OEZjNR8U5ohDxw/AiWXt8XbTAaT4LMeNQBW6JUlXge/cW1/m89GdLpwPdJaE6xvpybVclHx6LknWqHkoS0JINJO/oRYNAf1MELsjBqQLpZYeDC2QOYyoPhwdRcQGW3oFWbKv3U%2B9MI/ul%2BtxQiTSYyY%2B9KI9f%2B6yWwKth5NKFn1s2LhHsi7C3QoDTwc26GajS2etU0o9GpyA%3D%3D"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina 50015864",
+        "id":25,
+        "precio":"",
+        "modelo":"50015864",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"Diámetro de entrada: 10 mm;Diámetro de salida: 10 mm",
+        "auto":"  FIAT / < UNO/PREMIO/PALIO/SIENA MPI 1.3 > ",
+        "numeroDArticulo":"",
+        "fabricante":"Fiat",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_880638-MLV44962600281_022021-F%5B1%5D.webp?alt=media&token=b7b038ca-e373-454a-a10e-ea26ee2ca051"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina FG61",
+        "id":26,
+        "precio":"",
+        "modelo":"FG61",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"",
+        "auto":" < UNIVERSAL VER 854583 > ",
+        "numeroDArticulo":"",
+        "fabricante":"ACDelco",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_711058-MLV51282267191_082022-F%5B1%5D.webp?alt=media&token=14a4e2aa-bc1b-45cc-9ba3-1a4442a7986e"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina FG986B",
+        "id":27,
+        "precio":"",
+        "modelo":"FG986B",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"Diámetro de entrada: 8 mm;Diámetro de salida: 8 mm",
+        "auto":"  FORD FIESTA L4 1.6 LTS /  FORD FIESTA POWER L4 1.6 LTS /  FORD ECOSPORT L4 1.6 LTS /  FORD ECOSPORT L4 2.0 LTS /",
+        "numeroDArticulo":"",
+        "fabricante":"Motorcraft",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_811078-MLV53326875511_012023-F%5B1%5D.webp?alt=media&token=9b8711d3-d064-4eea-8d6e-c2ca8ed93d37"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina 2330021030",
+        "id":28,
+        "precio":"",
+        "modelo":"2330021030",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"Diámetro de entrada: 8.5 mm;Diámetro de salida: 9.5 mm",
+        "auto":"   TOYOTA YARIS L4 1.3 LTS /  TOYOTA RAV 4 L4 2.0 LTS /  TOYOTA RAV 4 L4 2.5 LTS / < COROLLA YARIS 04-14 >",
+        "numeroDArticulo":"",
+        "fabricante":"WINNER",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_703427-MLV53627535235_022023-F%5B1%5D.webp?alt=media&token=6db85dfb-a2c9-4f06-9316-17660498c676"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina MF619",
+        "id":29,
+        "precio":"",
+        "modelo":"MF619",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"- Alto: 163 mm.Diámetro exterior: 60 mm.Entrada: 8 mm.Salida: 8 mm.",
+        "auto":"  < AVEO/OPTRA/CORSA/SPARK/DAEWOO/ARAUCA/ORINOCO PICO FINO >",
+        "numeroDArticulo":"",
+        "fabricante":"MILLARD",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2FD_NQ_NP_2X_919742-MLV44071068572_112020-F%5B1%5D.webp?alt=media&token=cab7bb97-440c-40a2-9201-48b8566deef1"
+        
+    },
+    {
+        "nombre":"Filtro de gasolina 33370",
+        "id":30,
+        "precio":"",
+        "modelo":"33370",
+        "idcategoria":"Filtro de gasolina ",
+        "descripcion":"MEDIDAS mm 125.4 X 93.7 X 84.9;CUBICAJE cbm 0,03;PESO LB 1,01;PESO KG 0,46",
+        "auto":"   < UNIVERSAL DE VIDRIO >",
+        "numeroDArticulo":"",
+        "fabricante":"Wix",
+        "stock":"",
+        "img":"https://firebasestorage.googleapis.com/v0/b/vanmica-site.appspot.com/o/filtro%20de%20gasolina%2F51IB2TIPrgL._AC_SY606_%5B1%5D.jpg?alt=media&token=ff01a780-3f6a-4b3c-8aaf-504b70d80843"
     }
 
 
 
 ]
+

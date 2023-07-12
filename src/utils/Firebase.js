@@ -33,17 +33,19 @@ export const cargarBDD = async()=>{
   const promise = await fetch('./json/productos.json')
   const productos = await promise.json()
   productos.forEach(async (prod)=>{
-    await addDoc(collection(db,'productos'),{
+    await addDoc(collection(db,'productos'), {// collestion lo que hace es, si existe mi coleccion lo consulta, si no, lo crea y lo consulta
       nombre: prod.nombre,
       precio: prod.precio,
       modelo: prod.modelo,
-      idcategoria: prod.idCategoria,
+      idcategoria: prod.idcategoria,
       descripcion: prod.descripcion,
+      auto:prod.auto,
       numeroDArticulo: prod.numeroDArticulo,
+      fabricante:prod.fabricante,
       stock: prod.stock,
       img:prod.img
 
-    })// collestion lo que hace es, si existe mi coleccion lo consulta, si no, lo crea y lo consulta
+    })
   })
 }
 

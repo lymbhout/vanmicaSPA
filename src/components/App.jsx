@@ -13,7 +13,10 @@ import { ItemListContainer } from './ItemListCotainer/ItemListContainer';
 import { Checkout } from './Checkout/Checkout';
 import Cart from './Cart/Cart';
 import Home from '../components/Home/Home';
+//FIREBASE
+import { cargarBDD } from '../utils/Firebase';
 export function App() {
+ //cargarBDD()
   return (
   <BrowserRouter>
     <DarkModerProvider>

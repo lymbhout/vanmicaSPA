@@ -50,7 +50,7 @@ const Footer = () => {
                         </div>
                         <div className=" mt-5">
                             <a href=''><img src="../img/logos/instagram.png" alt="instagram" /></a>
-                            <a href='https://wa.me/58'><img src="./img/logos/whatsapp (1).png" alt="whatsapp" className='ms-5' /></a>
+                            <a href='https://wa.me/58'><img src="../img/logos/whatsapp (1).png" alt="whatsapp" className='ms-5' /></a>
                             <p>© 2022 www.vanmica.com: VANMICA Tienda online</p>
                         </div>
                         </article>
