@@ -6,16 +6,19 @@ import { Item } from '../Item/Item';
 import { useParams } from 'react-router-dom';
 import { ItemList } from '../../components/ItemList/ItemList.jsx';
 // componente filtrador
+//firebase
+import { getProductos } from '../../utils/Firebase';
 export const ProductListCategori = () => {
     const [categoria,setCategoria] = useState([])
     const {idcategoria} = useParams()
+    console.log(idcategoria);
     useEffect(()=>{
-        consultarBDD('../json/productos.json').then (tegoria =>{
-            const variedad = tegoria.filter(item => item.idcategoria === idcategoria)
+        getProductos().then (tegoria =>{
+            const variedad = tegoria.filter(item => item.idcategoria === idcategoria )
+            // const vari = variedad.map(item => < Item item={item}/>)
             const items = <ItemList variedad={variedad} plantilla={'item'}></ItemList>
             setCategoria(items)
-            
-            // const vari = variedad.map(item => < Item item={item}/>)
+            console.log(variedad);
         })
     },[idcategoria])
     return (

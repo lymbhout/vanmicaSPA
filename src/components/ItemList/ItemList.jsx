@@ -3,7 +3,7 @@ import { Item } from '../Item/Item';
 import { ProductList } from '../ProductList/ProductList';
 import ItemCart from '../ItemCart/ItemCart';
 export const ItemList = ({variedad,plantilla}) => {
-
+    console.log(variedad);
     return(
         <>
         {

@@ -3,13 +3,17 @@ import { useEffect,useState } from 'react';
 import { ItemList } from '../../components/ItemList/ItemList.jsx';
 import { consultarBDD } from '../../utils/funciones.js';
 import { ProductList } from '../../components/ProductList/ProductList.jsx';
+import { useParams } from 'react-router-dom';
+//firebase
+import { getProductos } from '../../utils/Firebase';
 // componente que consulta la base de datos y renderiza
 export const ItemListContainer = () => {
+    const {idcategoria} = useParams()
     // const [productos,setProductos] = useState([])
     const [filter,setfilter]= useState([])
     useEffect(() =>{
-        consultarBDD('../json/productos.json').then(prods =>{
-            const prod = prods.find(item => item.id === 1)
+        getProductos().then(prods =>{
+            const prod = prods.find(item => item.idcategoria === idcategoria)
             setfilter(prod)
 
             // const variedad = prods.filter(item => item.idcategoria === idcategoria)
