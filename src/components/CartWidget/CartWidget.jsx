@@ -8,12 +8,8 @@ export const CartWidget = ({cantidadCarrito}) => {
             <Link to={'/cart'}>
                 <button className='btn btn-dark relativo'>
                     <i class="bi bi-cart fs-2 p-2"></i>
-                    <p className='centerPosition'>{cantidadCarrito}</p>
+                    {getItemQuantity() > 0 && <p className='centerPosition'>{getItemQuantity()}</p>}
                 </button>
-                {getItemQuantity() > 0 && 
-                <span className='cantCarrito'>
-                    {getItemQuantity()}
-                </span>}
             </Link>
         </>
     );

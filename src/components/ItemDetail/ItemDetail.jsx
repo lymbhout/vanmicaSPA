@@ -1,11 +1,15 @@
 import React from 'react';
 import {ItemCounter} from '../ItemCounter/ItemCounter.jsx';
 import { Link } from 'react-router-dom';
+import { useCarritoContext } from '../Context/CarritoContext.js';
 export const ItemDetail = ({prod}) => {
+
+    const {addItem} =useCarritoContext()
 
     const onAdd = (cantidad)=>{ //agregar producto al carrito
         console.log(cantidad);
         console.log(prod);
+        addItem(prod,cantidad)
     }
     return (
 <div className="card mb-3" style={{maxWidth: '540px'}}>
