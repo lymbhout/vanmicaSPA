@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 import { useCarritoContext } from '../Context/CarritoContext.js';
 export const ItemDetail = ({prod}) => {
 
-    const {addItem} =useCarritoContext()
+    const {addItem} = useCarritoContext()
 
     const onAdd = (cantidad)=>{ //agregar producto al carrito
         console.log(cantidad);
-        console.log(prod);
+        console.log(prod.stock);
         addItem(prod,cantidad)
     }
+
     return (
 <div className="card mb-3" style={{maxWidth: '540px'}}>
     <div className="row g-0">
@@ -21,9 +22,10 @@ export const ItemDetail = ({prod}) => {
             <div className="card-body">
                 <h5 className="card-title">{prod.nombre}</h5>
                 <p className="card-text">{prod.descipcion}</p>
+                <p className="card-text">Stock:{prod.Stock}</p>
                 <p className="card-text"><small className="text-body-secondary">{prod.descipcion}</small></p>
-                <ItemCounter valInicial={1} Stock={5} precio={prod.precio} onAdd={onAdd}/>
-                <Link className='nav-link' to={'/Cart'}> <button className='btn'>Finalizar compra</button> </Link>
+                <ItemCounter valInicial={1} Stock={prod.stock} precio={prod.precio} onAdd={onAdd}/>
+                <Link className='nav-link' to={'/Cart'}> <button className='btn btn-dark'>Finalizar compra</button> </Link>
             </div>
         </div>
     </div>

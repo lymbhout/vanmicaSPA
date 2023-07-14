@@ -14,7 +14,7 @@ export const ProductListCategori = () => {
     console.log(idcategoria);
     useEffect(()=>{
         getProductos().then (tegoria =>{
-            const variedad = tegoria.filter(item => item.idcategoria === idcategoria )
+            const variedad = tegoria.filter(prod => prod.stock > 0).filter(item => item.idcategoria === idcategoria )
             // const vari = variedad.map(item => < Item item={item}/>)
             const items = <ItemList variedad={variedad} plantilla={'item'}></ItemList>
             setCategoria(items)

@@ -17,12 +17,16 @@ import Home from '../components/Home/Home';
 import { cargarBDD } from '../utils/Firebase';
 //carritoContext
 import { CarritoProvider } from './Context/CarritoContext';
+//toastify
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export function App() {
   // cargarBDD()
   return (
   <BrowserRouter>
     <DarkModerProvider>
       <CarritoProvider>
+      <ToastContainer/>
         <div className="App ">
           <div className='row '>
             <div className='col '>

@@ -13,6 +13,7 @@ console.log(item);
     </div>
       <h5 className="card-title">{item.nombre} {item.modelo}</h5>
       <p className="card-text">{item.numeroDArticulo}</p>
+      <p className="card-text">{item.stock}</p>
       <p className="card-text">{item.precio}</p>
       <Link href="#" className={`btn ${darkMode ?'btn-outline-danger':'btn-danger'}`}> Compra</Link>
   </div>
